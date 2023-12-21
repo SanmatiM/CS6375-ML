@@ -1,0 +1,11 @@
+Value of K,SSE,Size of each cluster
+3,81.72341001031576,"['Cluster 1: 146 tweets', 'Cluster 2: 109 tweets', 'Cluster 3: 1140 tweets']"
+4,73.63401806276156,"['Cluster 1: 146 tweets', 'Cluster 2: 1009 tweets', 'Cluster 3: 71 tweets', 'Cluster 4: 169 tweets']"
+5,67.28122447983641,"['Cluster 1: 212 tweets', 'Cluster 2: 683 tweets', 'Cluster 3: 196 tweets', 'Cluster 4: 235 tweets', 'Cluster 5: 69 tweets']"
+6,73.09191757671104,"['Cluster 1: 533 tweets', 'Cluster 2: 268 tweets', 'Cluster 3: 220 tweets', 'Cluster 4: 189 tweets', 'Cluster 5: 144 tweets', 'Cluster 6: 41 tweets']"
+7,70.82992525478093,"['Cluster 1: 114 tweets', 'Cluster 2: 70 tweets', 'Cluster 3: 128 tweets', 'Cluster 4: 420 tweets', 'Cluster 5: 543 tweets', 'Cluster 6: 72 tweets', 'Cluster 7: 48 tweets']"
+8,57.298343622115475,"['Cluster 1: 72 tweets', 'Cluster 2: 303 tweets', 'Cluster 3: 13 tweets', 'Cluster 4: 247 tweets', 'Cluster 5: 17 tweets', 'Cluster 6: 249 tweets', 'Cluster 7: 254 tweets', 'Cluster 8: 240 tweets']"
+9,80.1950257448442,"['Cluster 1: 51 tweets', 'Cluster 2: 9 tweets', 'Cluster 3: 263 tweets', 'Cluster 4: 19 tweets', 'Cluster 5: 245 tweets', 'Cluster 6: 60 tweets', 'Cluster 7: 55 tweets', 'Cluster 8: 28 tweets', 'Cluster 9: 665 tweets']"
+10,68.0879895451735,"['Cluster 1: 16 tweets', 'Cluster 2: 37 tweets', 'Cluster 3: 148 tweets', 'Cluster 4: 83 tweets', 'Cluster 5: 41 tweets', 'Cluster 6: 118 tweets', 'Cluster 7: 15 tweets', 'Cluster 8: 393 tweets', 'Cluster 9: 261 tweets', 'Cluster 10: 283 tweets']"
+11,59.1606286163093,"['Cluster 1: 85 tweets', 'Cluster 2: 39 tweets', 'Cluster 3: 26 tweets', 'Cluster 4: 15 tweets', 'Cluster 5: 36 tweets', 'Cluster 6: 124 tweets', 'Cluster 7: 18 tweets', 'Cluster 8: 718 tweets', 'Cluster 9: 178 tweets', 'Cluster 10: 12 tweets', 'Cluster 11: 144 tweets']"
+12,58.77097419309963,"['Cluster 1: 211 tweets', 'Cluster 2: 425 tweets', 'Cluster 3: 73 tweets', 'Cluster 4: 296 tweets', 'Cluster 5: 89 tweets', 'Cluster 6: 62 tweets', 'Cluster 7: 7 tweets', 'Cluster 8: 15 tweets', 'Cluster 9: 22 tweets', 'Cluster 10: 44 tweets', 'Cluster 11: 115 tweets', 'Cluster 12: 36 tweets']"

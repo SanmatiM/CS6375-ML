@@ -1,0 +1,17 @@
+Experiment Number: 1
+Parameters Chosen:
+{
+    "train_ratio": 0.8,
+    "input_dim": "Not defined",
+    "hidden_dim": "Not defined",
+    "output_dim": "Not defined",
+    "activation_fn": "Not defined"
+}
+Results:
+{
+    "training_accuracy": "Not defined",
+    "test_accuracy": "Not defined",
+    "training_rmse": "Not defined",
+    "test_rmse": 8.832397373902761
+}
+

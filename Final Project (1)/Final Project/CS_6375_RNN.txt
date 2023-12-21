@@ -1,0 +1,479 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# #CS 6375.501 - Final Project - RNN for Time Series Weather Prediction
+# #Submitted By -
+
+# # 1) Import Dataset
+
+
+get_ipython().system(' git clone https://github.com/Pranil29/ML.git')
+
+
+# # 2) Import Libraries
+
+#  
+
+
+#importing libraries
+import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
+import numpy as np
+get_ipython().run_line_magic('pylab', 'inline')
+import math
+
+
+# # 3) Data Visualization
+
+#  
+
+
+#reading data
+TempDF = pd.read_csv("/content/ML/temperature.csv")
+Temperature_data=TempDF[['datetime','Dallas']]
+
+
+#  
+
+
+#checking the dataframe
+Temperature_data.head()
+
+
+#  
+
+
+Temperature_data.describe()
+
+
+#  
+
+
+Temperature_data[['datetime', 'Dallas']].head()
+
+
+#  
+
+
+#counting null values
+Temperature_data.isnull().sum(axis=0)
+
+
+#  
+
+
+#converting K to C
+Temperature_data['Dallas']-=273.15
+
+
+#  
+
+
+#changing datetime format
+Temperature_data['datetime'] =  pd.to_datetime(Temperature_data['datetime'], format='%Y-%m-%d %H:%M:%S')
+
+
+#  
+
+
+#creating columns for hour/month for better visualization
+Temperature_data['hour'] = [x.hour for x in Temperature_data['datetime']]
+Temperature_data['month'] = [x.month for x in Temperature_data['datetime']]
+
+
+#  
+
+
+#boxplot by hour
+Temperature_data.boxplot('Dallas', by='hour', figsize=(12, 8), grid=False)
+
+
+#  
+
+
+#boxplot by month
+Temperature_data.boxplot('Dallas', by='month', figsize=(12, 8), grid=False)
+
+
+#  
+
+
+#Hourly temp graph
+plt.figure(figsize=(12, 8))
+plt.plot('datetime', 'Dallas', data=Temperature_data)
+plt.title('Hourly temperature graph')
+plt.ylabel('Degrees in C')
+plt.xlabel('Date')
+plt.show()
+
+
+# # 4) Data Preprocessing
+
+#  
+
+
+#processing data
+class PreprocessData:
+  #init
+    def __init__(self,data,seq):
+        self.df = data
+        self.data = None
+        self.XTrain = None
+        self.YTrain = None
+        self.xValidationtionDatata = None
+        self.yValidation = None
+        self.seq = seq
+        
+    #cleaing data
+    def clean(self):
+        self.df=self.df.fillna(self.df['Dallas'].mean())
+        self.df['datetime'] =  pd.to_datetime(self.df['datetime'], format='%Y-%m-%d %H:%M:%S')
+        self.df = self.df.set_index(pd.DatetimeIndex(self.df['datetime']))
+    
+    #MixMaxscale to transform data
+    def scale(self):
+        davg = self.df.resample('1D',axis=0).mean()
+        scale = davg.iloc[:, 0].values
+        scale=MinMaxScaler().fit_transform(scale.reshape(-1, 1))
+        davg['Scaled_values']=scale
+        self.df = davg
+    
+    #splitting into Train and Test data
+    def getTrainTestData(self):
+        data = self.df[50:500]
+        self.data = data
+        XTrain = []
+        YTrain = []
+        seq_len = self.seq
+        num_records = len(data) - seq_len
+
+        for i in range(num_records - seq_len):
+            XTrain.append(data['Scaled_values'][i:i+seq_len])
+            YTrain.append(data['Scaled_values'][i+seq_len])
+
+        XTrain = np.array(XTrain)
+        XTrain = np.expand_dims(XTrain, axis=2)
+
+        YTrain = np.array(YTrain)
+        YTrain = np.expand_dims(YTrain, axis=1)
+        self.XTrain = XTrain
+        self.YTrain = YTrain
+    
+    #assigning validation data
+    def setValues(self):
+        xValidation = []
+        yValidation = []
+        data = self.data
+        seq_len = self.seq
+        num_records = len(data) - seq_len
+        for i in range(50- seq_len, 50):
+            xValidation.append(data['Scaled_values'][i:i+seq_len])
+            yValidation.append(data['Scaled_values'][i+seq_len])
+
+        xValidation = np.array(xValidation)
+        xValidation = np.expand_dims(xValidation, axis=2)
+
+        yValidation = np.array(yValidation)
+        yValidation = np.expand_dims(yValidation, axis=1)
+        self.xValidation = xValidation
+        self.yValidation = yValidation
+
+
+#  
+
+
+#preprocessing init with dataframe
+sequence_length = 10
+ppd = PreprocessData(Temperature_data,sequence_length)
+#cleaning 
+ppd.clean()
+#standard scaling
+ppd.scale()
+
+
+#  
+
+
+ppd.getTrainTestData()
+
+
+#  
+
+
+ppd.setValues()
+
+
+# # 5) RNN Model
+
+#  
+
+
+#Creatin the model class
+class MyRNNmodel:
+  #init function
+    def __init__(self,learningRate,epoch,sequence_length,hiddenDim,outputDim,backProp_TT_truncate,minClip,maxClip,XTrain,YTrain,xValidation,yValidation):
+        #initializing all parameters
+        self.learningRate = learningRate
+        self.epoch = epoch
+        self.sequence_length = sequence_length
+        self.hiddenDim = hiddenDim
+        self.outputDim = outputDim
+        self.backProp_TT_truncate = backProp_TT_truncate
+        self.minClip = minClip
+        self.maxClip = maxClip
+        self.XTrain = XTrain
+        self.YTrain = YTrain
+        self.xValidation = xValidation
+        self.yValidation = yValidation
+        self.U = None
+        self.V = None
+        self.W = None
+    
+    #acitivation function - signmoid
+    def sigmoid(self,x):
+        return 1 / (1 + np.exp(-x))
+
+    #RSME calculation
+    def getError(self,XTrain,YTrain,U,V,W):
+        hiddenDim = self.hiddenDim
+        T = self.sequence_length
+        loss = 0.0
+        # do a forward pass to get prediction
+        for i in range(YTrain.shape[0]):
+            x, y = XTrain[i], YTrain[i]                    # get input, output values of each record
+            previous_state = np.zeros((hiddenDim, 1))   # prev-s is the value of the previous activation of hidden layer; which is initialized as all zeroes
+            for t in range(T):
+                #forward pass for every timestep in the sequence
+                newInput = np.zeros(x.shape)    
+                # we define a single input for that timestep
+                newInput[t] = x[t]              
+                multiplier_u = np.dot(U, newInput)
+                multiplier_w = np.dot(W, previous_state)
+                add = multiplier_w + multiplier_u
+                state = self.sigmoid(add)
+                multiplier_v = np.dot(V, state)
+                previous_state = state
+        # calculate error 
+            loss_per_record = (y - multiplier_v)**2 / 2
+            loss += loss_per_record
+        return loss,y
+
+    #training the data
+    def train(self):
+        learningRate = self.learningRate
+        backProp_TT_truncate = self.backProp_TT_truncate
+        hiddenDim = self.hiddenDim
+        outputDim = self.outputDim
+        minClip = self.minClip
+        maxClip = self.maxClip
+        T = self.sequence_length
+        np.random.seed(1200)
+        #initilizing random weights
+        U = np.random.uniform(0, 1, (hiddenDim, T))
+        W = np.random.uniform(0, 1, (hiddenDim, hiddenDim))
+        V = np.random.uniform(0, 1, (outputDim, hiddenDim))
+        XTrain = self.XTrain
+        YTrain = self.YTrain
+        xValidation = self.xValidation
+        yValidation = self.yValidation
+        loss = 0.0
+        #training for given number of epochs
+        for epoch in range(self.epoch):
+          #loss on training data
+            loss,y = self.getError(XTrain,YTrain,U,V,W)
+            loss = loss / float(y.shape[0])
+
+            val_loss,y = self.getError(xValidation,yValidation,U,V,W)
+            val_loss = val_loss / float(y.shape[0])
+            #printing training and validation loss
+            print('Epoch: ', epoch + 1, ', Training Loss: ', loss, ', Validation Loss: ', val_loss)
+            #Train
+            for i in range(YTrain.shape[0]):
+                x, y = XTrain[i], YTrain[i]
+                layers = []
+                previous_state = np.zeros((hiddenDim, 1))
+                #init delta values of weghts
+                deltaU = np.zeros(U.shape)
+                deltaV = np.zeros(V.shape)
+                deltaW = np.zeros(W.shape)
+                deltaU_t = np.zeros(U.shape)
+                deltaV_t = np.zeros(V.shape)
+                deltaW_t = np.zeros(W.shape)
+                deltaU_i = np.zeros(U.shape)
+                deltaW_i = np.zeros(W.shape)
+
+                # forward pass - for each sequence
+                for t in range(T):
+                    newInput = np.zeros(x.shape)
+                    newInput[t] = x[t]
+                    multiplier_u = np.dot(U, newInput)
+                    multiplier_w = np.dot(W, previous_state)
+                    add = multiplier_w + multiplier_u
+                    state = self.sigmoid(add)
+                    multiplier_v = np.dot(V, state)
+                    #adding previous and current state values
+                    layers.append({'s':state, 'previous_state':previous_state})
+                    previous_state = state
+
+
+                dmultiplier_v = (multiplier_v - y)
+                #again for each sequence
+                for t in range(T):
+                  #updating delta values
+                    deltaV_t = np.dot(dmultiplier_v, np.transpose(layers[t]['s']))
+                    dsv = np.dot(np.transpose(V), dmultiplier_v)
+
+                    ds = dsv
+                    dadd = add * (1 - add) * ds
+
+                    dmultiplier_w = dadd * np.ones_like(multiplier_w)
+
+                    dprevious_state = np.dot(np.transpose(W), dmultiplier_w)
+
+
+                    for i in range(t-1, max(-1, t-backProp_TT_truncate-1), -1):
+                        ds = dsv + dprevious_state
+                        dadd = add * (1 - add) * ds
+
+                        dmultiplier_w = dadd * np.ones_like(multiplier_w)
+                        dmultiplier_u = dadd * np.ones_like(multiplier_u)
+
+                        #updating weight based on previous state
+                        deltaW_i = np.dot(W, layers[t]['previous_state'])
+                        dprevious_state = np.dot(np.transpose(W), dmultiplier_w)
+
+                        newInput = np.zeros(x.shape)
+                        newInput[t] = x[t]
+                        deltaU_i = np.dot(U, newInput)
+                        dx = np.dot(np.transpose(U), dmultiplier_u)
+
+                        deltaU_t += deltaU_i
+                        deltaW_t += deltaW_i
+
+                    deltaV += deltaV_t
+                    deltaU += deltaU_t
+                    deltaW += deltaW_t
+
+                    #calculating final delta values
+                    if deltaU.max() > maxClip:
+                        deltaU[deltaU > maxClip] = maxClip
+                    if deltaV.max() > maxClip:
+                        deltaV[deltaV > maxClip] = maxClip
+                    if deltaW.max() > maxClip:
+                        deltaW[deltaW > maxClip] = maxClip      
+                    if deltaU.min() < minClip:
+                        deltaU[deltaU < minClip] = minClip
+                    if deltaV.min() < minClip:
+                        deltaV[deltaV < minClip] = minClip
+                    if deltaW.min() < minClip:
+                        deltaW[deltaW < minClip] = minClip
+                #updating the weights
+                U -= learningRate * deltaU
+                V -= learningRate * deltaV
+                W -= learningRate * deltaW  
+        
+        #setting final weight values
+        self.U = U
+        self.V = V
+        self.W = W
+
+                
+    #prediction on train data
+    def predictTrain(self):
+        hiddenDim = self.hiddenDim
+        U = self.U
+        V = self.V
+        W = self.W
+        YTrain = self.YTrain
+        XTrain = self.XTrain
+        T = self.sequence_length
+        predictions = []
+        for i in range(YTrain.shape[0]):
+            x, y = XTrain[i], YTrain[i]
+            previous_state = np.zeros((hiddenDim, 1))
+            # Forward pass for each sequence
+            for t in range(T):
+                multiplier_u = np.dot(U, x)
+                multiplier_w = np.dot(W, previous_state)
+                add = multiplier_w + multiplier_u
+                state = self.sigmoid(add)
+                multiplier_v = np.dot(V, state)
+                previous_state = state
+            predictions.append(multiplier_v)
+        return predictions
+    
+    #predict function on validation data
+    def predict(self):
+        hiddenDim = self.hiddenDim
+        U = self.U
+        V = self.V
+        W = self.W
+        xValidation = self.xValidation
+        yValidation = self.yValidation
+        T = self.sequence_length
+        predictions = []
+        for i in range(yValidation.shape[0]):
+            x, y = xValidation[i], yValidation[i]
+
+            previous_state = np.zeros((hiddenDim, 1))
+            # For each sequence
+            for t in range(T):
+                multiplier_u = np.dot(U, x)
+                multiplier_w = np.dot(W, previous_state)
+                add = multiplier_w + multiplier_u
+                state = self.sigmoid(add)
+                multiplier_v = np.dot(V, state)
+                previous_state = state
+            predictions.append(multiplier_v)
+        return predictions
+        
+
+
+#  
+
+
+#init model with parameters
+model = MyRNNmodel(0.0001,10,sequence_length,128,1,5,-5,5,ppd.XTrain,ppd.YTrain,ppd.xValidation,ppd.yValidation)
+
+
+# # 6) Train Model
+
+#  
+
+
+#training model
+model.train()
+
+
+#  
+
+
+#getting predictions and plotting the graph
+predictions = model.predictTrain()
+predictions = np.array(predictions)
+#plotting the preds
+plt.plot(predictions[:, 0, 0], 'g')
+plt.plot(ppd.YTrain[:, 0], 'r')
+plt.show()
+
+
+# # 7) Test Model
+
+#  
+
+
+#testing the model on validation set and plotting the graph
+predictions = model.predict()
+predictions = np.array(predictions)
+#plotting the preds
+plt.plot(predictions[:, 0, 0], 'g')
+plt.plot(ppd.yValidation[:, 0], 'r')
+plt.ylim([-2,2])
+plt.show()
+
+
+#  
+
+
+
+

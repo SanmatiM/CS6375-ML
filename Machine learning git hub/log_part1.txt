@@ -1,0 +1,1141 @@
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Test Data: 2.9289983417060195
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Test Data: 2.477082780748062
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Test Data: 2.4407498946812076
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Test Data: 2.3783751304379033
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Test Data: 2.4407903584535275
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Test Data: 2.2469415674367514
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Test Data: 2.139734454368879
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Test Data: 2.0547025699362753
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Test Data: 2.1395125597867395
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Test Data: 1.9746914939331277
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Test Data: 1.95051253876991
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Test Data: 2.004744104795527
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Test Data: 2.282460258746654
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Test Data: 2.054713097167119
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Test Data: 1.9915701478281795
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Test Data: 1.9509456828430536
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Test Data: 2.499607741491797
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Test Data: 2.041148412461629
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Test Data: 2.005701542001795
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Test Data: 1.9435064798990176
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Test Data: 2.7860369254329433
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Test Data: 2.5946900354021696
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Test Data: 2.5412636430647555
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Test Data: 2.187348491094085
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Test Data: 2.02281328163336
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Test Data: 2.0053591133543276
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Test Data: 1.9736902154839515
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Test Data: 2.005438591657416
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Test Data: 1.9153094889865232
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Test Data: 1.8973119776872927
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Test Data: 1.9179923698643453
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Test Data: 1.8975153439016694
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Test Data: 1.9935214162330295
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Test Data: 2.1265451999303924
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Test Data: 2.2871258291008685
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Test Data: 1.9286523332574124
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Test Data: 1.918076010773254
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Test Data: 1.966579341066089
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Test Data: 2.0763639592858856
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 2.441100396587157
+MSE on Test Data: 2.6824995253762745
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.101096689718646
+MSE on Test Data: 2.4453177796149412
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.017225402118474
+MSE on Test Data: 2.4381617313322144
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 1.8854527449368939
+MSE on Test Data: 2.427618139948796
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.0171096751292903
+MSE on Test Data: 2.438204171818991
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 1.6463938476841833
+MSE on Test Data: 2.4190448917403624
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 1.4647134893199405
+MSE on Test Data: 2.4251369642156106
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.3151405087670314
+MSE on Test Data: 2.392832466450428
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 1.4640013839768724
+MSE on Test Data: 2.4259788128501976
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.1596308999955531
+MSE on Test Data: 2.2366533430284417
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.099005631048486
+MSE on Test Data: 2.1486135825800137
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.0842864939265242
+MSE on Test Data: 2.1314478966005934
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 1.7076980380439644
+MSE on Test Data: 2.4192343847074826
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.3150500609454903
+MSE on Test Data: 2.392973560573861
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.1914964563927675
+MSE on Test Data: 2.278982970113234
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 1.1121685112536057
+MSE on Test Data: 2.1676116503734386
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 2.513065939501872
+MSE on Test Data: 2.4193342863406944
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 2.481621644404599
+MSE on Test Data: 3.007774958283621
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.1695936959299456
+MSE on Test Data: 2.2501963578994797
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.090214757718522
+MSE on Test Data: 2.2321270151337136
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 1.9612744009496086
+MSE on Test Data: 2.2165503550542116
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.0901190364928195
+MSE on Test Data: 2.232124462456702
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 1.7070169016293006
+MSE on Test Data: 2.24180615349945
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 1.4804548270978086
+MSE on Test Data: 2.3349758364001763
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.26092255285172
+MSE on Test Data: 2.4766617438444065
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 1.4796756204403532
+MSE on Test Data: 2.3363758387082023
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.0297868491087478
+MSE on Test Data: 2.687990580702242
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 0.9436276110884467
+MSE on Test Data: 2.870706147251116
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 0.9160125346176723
+MSE on Test Data: 3.0563529219960452
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 1.7757538993198265
+MSE on Test Data: 2.2271186284831783
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.2607856700246243
+MSE on Test Data: 2.4769405226219083
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.0753939078081105
+MSE on Test Data: 2.633468097270531
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 0.962923824243672
+MSE on Test Data: 2.810001917269813
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 2.8800781961459414
+MSE on Test Data: 4.94199130328666
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.0008299230587703
+MSE on Test Data: 3.075110919258011
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 1.9568100599671396
+MSE on Test Data: 3.0399187633228935
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 1.9041556931666368
+MSE on Test Data: 3.025241832628159
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 1.9566940680954836
+MSE on Test Data: 3.039960533415724
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 1.8160335910551453
+MSE on Test Data: 2.951276608088024
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 1.7376459174008128
+MSE on Test Data: 2.8482235783402703
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.6640460872071363
+MSE on Test Data: 2.730057242956888
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 1.73736726901482
+MSE on Test Data: 2.848080832062877
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.5987975982776905
+MSE on Test Data: 2.6095044344393403
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.582300664551268
+MSE on Test Data: 2.5910571704699743
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.5791113110356234
+MSE on Test Data: 2.597992378513514
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 1.839676068571055
+MSE on Test Data: 2.977413817430777
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.6639951720647594
+MSE on Test Data: 2.7299964206554046
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.609809723598987
+MSE on Test Data: 2.62932891968936
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 1.5853603200906978
+MSE on Test Data: 2.5915332823236508
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 3.024752866601933
+MSE on Test Data: 3.3589088739781037
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.0917468397924615
+MSE on Test Data: 2.689492068445797
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.0569286323407283
+MSE on Test Data: 2.6426080883383056
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 2.009695502012173
+MSE on Test Data: 2.5744761483567973
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.0568573751292183
+MSE on Test Data: 2.6424425012554402
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 1.9245919404153216
+MSE on Test Data: 2.4729120538114713
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 1.8494224589934618
+MSE on Test Data: 2.3855790710570264
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.7798348491755285
+MSE on Test Data: 2.293661634015315
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 1.8491527203634117
+MSE on Test Data: 2.385257817315686
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.7176742780016974
+MSE on Test Data: 2.2039399840112806
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.6955522738402766
+MSE on Test Data: 2.2104168365294092
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.6868903333027296
+MSE on Test Data: 2.2806986346776412
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 1.947466681247573
+MSE on Test Data: 2.4986134935812143
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.7797861595250533
+MSE on Test Data: 2.293586848331225
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.728876316271638
+MSE on Test Data: 2.218430078129163
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 1.700953393829229
+MSE on Test Data: 2.199216514530838
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 3.064738868168232
+MSE on Test Data: 2.855565463030753
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.103700837691933
+MSE on Test Data: 2.603008999722509
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.0517971089911504
+MSE on Test Data: 2.602749909692302
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 1.9856722898491495
+MSE on Test Data: 2.5913541917517207
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.0516723976497633
+MSE on Test Data: 2.602793266682971
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 1.8708881028973323
+MSE on Test Data: 2.5772083996358135
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 1.766269049060852
+MSE on Test Data: 2.5765434574077455
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.6622046622647826
+MSE on Test Data: 2.606350503162831
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 1.7659179349047578
+MSE on Test Data: 2.5768230882251224
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.554312203910746
+MSE on Test Data: 2.7528274789237916
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.5123770637537763
+MSE on Test Data: 2.9670784157253127
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.4968703997485397
+MSE on Test Data: 3.1705381103615764
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 1.9018937727925527
+MSE on Test Data: 2.5807722858170594
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.6621382974815027
+MSE on Test Data: 2.6064122604833497
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.5753705653104317
+MSE on Test Data: 2.7006135746454687
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 3.1597561670958565
+MSE on Test Data: 2.675095589600172
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.1900756782798347
+MSE on Test Data: 2.276159069757218
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.156014290006373
+MSE on Test Data: 2.2515510733802975
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 2.1140019806429287
+MSE on Test Data: 2.194496289062915
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.155929264922867
+MSE on Test Data: 2.2515375957710067
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 2.035458773296461
+MSE on Test Data: 2.0768275708672945
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 1.9511601606875835
+MSE on Test Data: 1.9629242190415976
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.8587088554908877
+MSE on Test Data: 1.8834322834763133
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 1.9509051226473324
+MSE on Test Data: 1.9621394951390276
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.7683635416255694
+MSE on Test Data: 1.9344844142048578
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.7366099995831032
+MSE on Test Data: 2.1032981785295655
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.7225773456151288
+MSE on Test Data: 2.322720805187732
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 2.0579924728032593
+MSE on Test Data: 2.110503342796997
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.8586460099654645
+MSE on Test Data: 1.8832957578068934
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.7848723260197614
+MSE on Test Data: 1.9024206523985454
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 1.744298923613011
+MSE on Test Data: 2.0393795799461176
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 2.92138301591669
+MSE on Test Data: 4.445684947391804
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.085166852170465
+MSE on Test Data: 2.766697607538308
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.0454238425033378
+MSE on Test Data: 2.696377873970674
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 1.9932309572260634
+MSE on Test Data: 2.6344350147186018
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.0453342273598545
+MSE on Test Data: 2.6961422533735337
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 1.8942099135157187
+MSE on Test Data: 2.5363084407286136
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 1.7963531786735545
+MSE on Test Data: 2.461466221255392
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.6979673218868787
+MSE on Test Data: 2.41719683895857
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 1.7960257626487963
+MSE on Test Data: 2.4610803661630163
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.6079034730143045
+MSE on Test Data: 2.4598210203285746
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.5836179148254976
+MSE on Test Data: 2.5500660688580887
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.5787995371743198
+MSE on Test Data: 2.608645414948616
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 1.921989107632819
+MSE on Test Data: 2.5612141383462004
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.6978991887172352
+MSE on Test Data: 2.417147883283868
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.6235809343854808
+MSE on Test Data: 2.437547751101556
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 1.5881548358546107
+MSE on Test Data: 2.5209244992663145
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 3.139998650277257
+MSE on Test Data: 3.034689655914513
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.2405827581023354
+MSE on Test Data: 2.0226933130382876
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.1716498293040845
+MSE on Test Data: 2.0612974695455146
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 2.091440560731425
+MSE on Test Data: 2.1315205115070857
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.1714548177839252
+MSE on Test Data: 2.0616543847808106
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 1.9625182244622636
+MSE on Test Data: 2.2048332619125035
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 1.8475166490460646
+MSE on Test Data: 2.241959116223735
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.7409620801936339
+MSE on Test Data: 2.2873375206796407
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 1.8471018114930622
+MSE on Test Data: 2.242583810888253
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.6527114463972497
+MSE on Test Data: 2.3509671888038652
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.632974669668932
+MSE on Test Data: 2.410544700816366
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.629459408716997
+MSE on Test Data: 2.442512567823668
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 1.9970047255139614
+MSE on Test Data: 2.192800505240375
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.7408854314848106
+MSE on Test Data: 2.2874687316512943
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.6668569696087874
+MSE on Test Data: 2.3329866526785477
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 1.636416453975753
+MSE on Test Data: 2.3925877139997302
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 3.241387171953202
+MSE on Test Data: 2.200306602481916
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.283707856931704
+MSE on Test Data: 1.838974610025542
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.225223270300821
+MSE on Test Data: 1.8739763181211262
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 2.158906751886642
+MSE on Test Data: 1.9045072418338538
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.225052639527373
+MSE on Test Data: 1.8743056561277605
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 2.05548387467444
+MSE on Test Data: 1.8882368470095134
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 1.964783018813736
+MSE on Test Data: 1.8267555966641709
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.8825413478092714
+MSE on Test Data: 1.7641926394365164
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 1.964451505517236
+MSE on Test Data: 1.8266419187147702
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.8224620808307344
+MSE on Test Data: 1.7005219174940107
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.8127873593394574
+MSE on Test Data: 1.6560521373285704
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.8116497044504996
+MSE on Test Data: 1.628337333216104
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 2.0828973450372534
+MSE on Test Data: 1.901805082708515
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.8824783845338693
+MSE on Test Data: 1.7641794262492958
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.830847496229084
+MSE on Test Data: 1.7148463280091606
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 1.8141875993934977
+MSE on Test Data: 1.6698699363598892
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 3.3154183792091505
+MSE on Test Data: 2.0130263123729644
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.4063932046358683
+MSE on Test Data: 1.3908776832126084
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.3588805676112714
+MSE on Test Data: 1.3678423929203658
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 2.298634142727847
+MSE on Test Data: 1.3359594581313567
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.3587647765523143
+MSE on Test Data: 1.3678331931432652
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 2.190370581675964
+MSE on Test Data: 1.271951300998351
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 2.087204978161314
+MSE on Test Data: 1.2118868228275308
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.9882554053315378
+MSE on Test Data: 1.169776964465771
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 2.0868446576943493
+MSE on Test Data: 1.2116343776115457
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.9110690307998544
+MSE on Test Data: 1.1605491357195026
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.8960940267833217
+MSE on Test Data: 1.1703550511670027
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.8934420818129658
+MSE on Test Data: 1.1786958672420433
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 2.2202533525520565
+MSE on Test Data: 1.2905002185425234
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.9881812124810936
+MSE on Test Data: 1.1697507311200572
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.922532399912049
+MSE on Test Data: 1.1589388178624633
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 1.8986302707156366
+MSE on Test Data: 1.166920707566352
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 3.0318293414689133
+MSE on Test Data: 3.699314393197499
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.126011393511219
+MSE on Test Data: 2.489340774799796
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.076115599868213
+MSE on Test Data: 2.4732740967914917
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 2.0120101196925235
+MSE on Test Data: 2.4661722310334997
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.075997982450898
+MSE on Test Data: 2.473276565880696
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 1.8957793479248612
+MSE on Test Data: 2.44136944207582
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 1.7893451451920956
+MSE on Test Data: 2.4216153684083306
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.6947865362716121
+MSE on Test Data: 2.4168046883564607
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 1.7889442054934743
+MSE on Test Data: 2.421566549180981
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.6218125291687404
+MSE on Test Data: 2.423778770110762
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.6022513627509913
+MSE on Test Data: 2.435497762013316
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.5972840347795056
+MSE on Test Data: 2.4541180447319673
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 1.927627981396176
+MSE on Test Data: 2.449055098632327
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.6947154576924648
+MSE on Test Data: 2.416827791801347
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.6337592105807326
+MSE on Test Data: 2.421404265541397
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 1.6062712963108976
+MSE on Test Data: 2.430720523390938
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 3.0541646737630095
+MSE on Test Data: 4.183446700135999
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.14360141176267
+MSE on Test Data: 2.4635606015537985
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.0938612756637536
+MSE on Test Data: 2.437665146923464
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 2.0291035519944867
+MSE on Test Data: 2.4379776501556565
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.0937493405344285
+MSE on Test Data: 2.4376244777414584
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 1.9152653484596023
+MSE on Test Data: 2.4403184069246575
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 1.8178941926950452
+MSE on Test Data: 2.4479995838389783
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.7313252648270052
+MSE on Test Data: 2.4530830551447735
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 1.817531950978072
+MSE on Test Data: 2.4484529719491985
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.6576201314558627
+MSE on Test Data: 2.4476491923273813
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.638122045890522
+MSE on Test Data: 2.473260248194444
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.6329116834490378
+MSE on Test Data: 2.5111248182492045
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 1.9456013411997763
+MSE on Test Data: 2.4397634869769718
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.7312644628785843
+MSE on Test Data: 2.453163951057796
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.6699503295578455
+MSE on Test Data: 2.4465200643620153
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 1.6420810434818816
+MSE on Test Data: 2.461813702637617
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 3.183183791204591
+MSE on Test Data: 2.429565220724879
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.181572946213118
+MSE on Test Data: 2.283783494905961
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.1328849488341333
+MSE on Test Data: 2.291207159024581
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 2.0732272761591752
+MSE on Test Data: 2.2719836390494232
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.1327607708280336
+MSE on Test Data: 2.2913163413245377
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 1.9727539178079792
+MSE on Test Data: 2.217381225123974
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 1.8849231937865656
+MSE on Test Data: 2.1487994884489257
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.80509570378564
+MSE on Test Data: 2.0678517641613086
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 1.8846016872101456
+MSE on Test Data: 2.148650649527869
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.7371834512107946
+MSE on Test Data: 1.9789819467061451
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.71929943462971
+MSE on Test Data: 1.9582350267092046
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.7152850523659322
+MSE on Test Data: 1.9637413514202788
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 1.9995935387217691
+MSE on Test Data: 2.235118428733874
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.8050391723613894
+MSE on Test Data: 2.0678039273206132
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.7485723498002805
+MSE on Test Data: 1.994986915942057
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 1.7228193932493903
+MSE on Test Data: 1.9606806267103727
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 3.14034635965116
+MSE on Test Data: 2.9034271208900435
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.1763287240665643
+MSE on Test Data: 2.2663121186313133
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.115764062028616
+MSE on Test Data: 2.297365870433331
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 2.0422638310447305
+MSE on Test Data: 2.3356526148936987
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.115605254791504
+MSE on Test Data: 2.297614663862721
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 1.918538561794168
+MSE on Test Data: 2.3725839859992632
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 1.8087573834748092
+MSE on Test Data: 2.3937764593819675
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.7124212863260104
+MSE on Test Data: 2.4223507704576144
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 1.8083409889029045
+MSE on Test Data: 2.3942225665158046
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.64089807875044
+MSE on Test Data: 2.4295418048142214
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.6246529104321803
+MSE on Test Data: 2.4149857835247435
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.6200245230286017
+MSE on Test Data: 2.409754748822423
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 1.9518292600105254
+MSE on Test Data: 2.3669391706103875
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.712348180219027
+MSE on Test Data: 2.4224805870073807
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.651833867627595
+MSE on Test Data: 2.431992306473081
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 1.6278688763213651
+MSE on Test Data: 2.4196682992895786
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 3.2787744678577013
+MSE on Test Data: 2.2356225830652785
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.3497868598976255
+MSE on Test Data: 1.6285631443473922
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.299071620950392
+MSE on Test Data: 1.6187548683188338
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 2.2381646053532105
+MSE on Test Data: 1.601387743593835
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.2989360610791345
+MSE on Test Data: 1.618839232140319
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 2.134671291389756
+MSE on Test Data: 1.5449195191276557
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 2.0354456950729256
+MSE on Test Data: 1.478421685230631
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.9381088973767595
+MSE on Test Data: 1.4399749037450498
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 2.0351061732465827
+MSE on Test Data: 1.4780183698579477
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.85677243931375
+MSE on Test Data: 1.4722419235579625
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.837512248444858
+MSE on Test Data: 1.526195242611083
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.8344134819739364
+MSE on Test Data: 1.5580550168197325
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 2.1630903520786604
+MSE on Test Data: 1.5641634472095072
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.9380378617486822
+MSE on Test Data: 1.4399341128476872
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.8699525727409447
+MSE on Test Data: 1.4570790969124678
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 1.840960656832188
+MSE on Test Data: 1.5093782010017829
+Learning Rate: 0.0001
+Number of Iterations: 100
+MSE on Training Data: 3.0195410626957275
+MSE on Test Data: 4.128505916122345
+Learning Rate: 0.0001
+Number of Iterations: 500
+MSE on Training Data: 2.145453105509541
+MSE on Test Data: 2.540192431172696
+Learning Rate: 0.0001
+Number of Iterations: 1000
+MSE on Training Data: 2.1172126775365268
+MSE on Test Data: 2.459889271901285
+Learning Rate: 0.0001
+Number of Iterations: 2000
+MSE on Training Data: 2.074815872494919
+MSE on Test Data: 2.374122992965048
+Learning Rate: 0.001
+Number of Iterations: 100
+MSE on Training Data: 2.117170653806646
+MSE on Test Data: 2.4596076711784742
+Learning Rate: 0.001
+Number of Iterations: 500
+MSE on Training Data: 1.987084098954767
+MSE on Test Data: 2.2381849881207776
+Learning Rate: 0.001
+Number of Iterations: 1000
+MSE on Training Data: 1.898742196207339
+MSE on Test Data: 2.127236841128959
+Learning Rate: 0.001
+Number of Iterations: 2000
+MSE on Training Data: 1.8059889281430797
+MSE on Test Data: 2.042616288047857
+Learning Rate: 0.01
+Number of Iterations: 100
+MSE on Training Data: 1.8984621794231185
+MSE on Test Data: 2.126664373339621
+Learning Rate: 0.01
+Number of Iterations: 500
+MSE on Training Data: 1.7172417654857968
+MSE on Test Data: 2.0599146106229265
+Learning Rate: 0.01
+Number of Iterations: 1000
+MSE on Training Data: 1.695497878178814
+MSE on Test Data: 2.155286209337677
+Learning Rate: 0.01
+Number of Iterations: 2000
+MSE on Training Data: 1.692095099360688
+MSE on Test Data: 2.221004133091967
+Learning Rate: 0.004
+Number of Iterations: 100
+MSE on Training Data: 2.0119168735463786
+MSE on Test Data: 2.2727702129417997
+Learning Rate: 0.004
+Number of Iterations: 500
+MSE on Training Data: 1.805926724496064
+MSE on Test Data: 2.042508740905697
+Learning Rate: 0.004
+Number of Iterations: 1000
+MSE on Training Data: 1.7324582725569242
+MSE on Test Data: 2.0392692633217746
+Learning Rate: 0.004
+Number of Iterations: 2000
+MSE on Training Data: 1.699228399161543
+MSE on Test Data: 2.123785429083364
